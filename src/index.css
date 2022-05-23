@@ -1,0 +1,17 @@
+body {
+  margin:0;
+  font-family:'Quicksand';
+  overflow:hidden;
+}
+p{
+  color:white;
+}
+div {
+  box-sizing: border-box;
+}
+@font-face{
+    font-family:"fff-forward-regular";
+    src:url("https://dafonttop.com/wp-data/f/468/2468/file/fff-forward.regular.ttf") format("woff"),
+    url("https://dafonttop.com/wp-data/f/468/2468/file/fff-forward.regular.ttf") format("opentype"),
+    url("https://dafonttop.com/wp-data/f/468/2468/file/fff-forward.regular.ttf") format("truetype");
+}

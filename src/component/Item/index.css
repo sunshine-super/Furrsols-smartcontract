@@ -1,0 +1,41 @@
+.Inventory{
+  background:#162222;
+  border-radius:5px;
+  width:128px;
+  height:128px;
+  margin-right:18px;
+  margin-bottom:14px;
+  display:flex;
+  justify-content:space-between;
+}
+.type{
+  color:white;
+  font-size:14px;
+  margin-top:5px;
+  margin-left:10px;
+}
+.count{
+  max-width:47px;
+  max-height:17px;
+  width:100%;
+  background-color:rgba(15, 67, 57, 0.85);
+  border-top-left-radius:5px;
+  border-bottom-right-radius:5px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:111px;
+  left:110px;
+}
+.pic1{
+  background:url('../../assets/imgs/item1.png')
+}
+.pic2{
+  background:url('../../assets/imgs/item2.png');
+}
+.pic3{
+  background:url('../../assets/imgs/item3.png');
+}
+.pic4{
+  background:url('../../assets/imgs/item4.png');
+}

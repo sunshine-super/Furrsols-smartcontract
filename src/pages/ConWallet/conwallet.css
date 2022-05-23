@@ -1,0 +1,19 @@
+.con_body{
+  height: 100vh;
+  background: #1A2828;
+  text-align:'center'
+}
+.con_body_main{
+  max-width:1240px;
+  margin:0 auto;
+  text-align:center;
+  align-item:center;
+  padding:280px 0px;
+}
+.advice{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color:'white';
+}

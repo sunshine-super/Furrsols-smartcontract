@@ -1,0 +1,32 @@
+.tabmenu_right{
+  display:flex;
+  align-items:center;
+}
+.MuiTabs-scroller span{
+  width:0px !important;
+}
+
+.MuiTabs-flexContainer
+{
+  justify-content:center;
+  padding:0px 40px;
+  margin:0 auto;
+}
+@media (max-width:1000px){
+  .MuiTabs-flexContainer{
+    flex-wrap:wrap-reverse;
+  }
+  .tabmenu_right{
+    margin-bottom:10px;
+  }
+  @media (max-width:900px){
+    .MuiTabs-flexContainer{
+      padding:0px 5px;
+    }
+    @media (max-width:599px){
+      .MuiTab-root{
+        font-size:10px !important;
+      }
+    }
+  }
+}

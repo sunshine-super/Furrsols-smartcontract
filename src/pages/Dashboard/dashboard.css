@@ -1,0 +1,54 @@
+.gameguide_body{
+  display:flex;
+  height:100vh;
+}
+.gameguide_leftside{
+  padding:30px 20px 30px 30px;
+  max-width:320px;
+  width:100%;
+  height:68%;
+  background: #192626;
+  text-align:left;
+  margin-right:10px;
+}
+.gameguide_leftside .top{
+  display:flex;
+  justify-content:left;
+}
+.gameguide_rightside{
+  padding:21px 0px 21px 23px;
+  width:100%;
+  height:68%;
+  background: #1b2424;
+  overflow:auto;
+}
+.token_info{
+  font-size:16px;
+  line-height:18px;
+  color:'white';
+}
+@media screen and (max-width:768px)
+{
+  .gameguide_body{
+    flex-direction:column;
+    overflow:auto;
+    height:65vh;
+  }
+  .gameguide_leftside .down{
+    display:flex;
+    justify-content:space-between;
+  }
+  .gameguide_leftside .top{
+    display:flex;
+    justify-content:left;
+  }
+  .gameguide_leftside{
+    max-width:1000px;
+  }
+  .gameguide_rightside{
+    overflow:unset;
+    height:550%;
+    padding:5px;
+  }
+  
+}

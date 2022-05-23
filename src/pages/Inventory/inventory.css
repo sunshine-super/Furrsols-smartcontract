@@ -1,0 +1,15 @@
+.Inventory_bag{
+  background: rgba(0, 255, 206, 0.02);
+  border: 2px solid rgba(0, 255, 206, 0.1);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding:26px 20px;
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+}
+@media screen and (max-width:768px){
+  .Inventory_bag{
+    padding:10px;
+  }
+}
